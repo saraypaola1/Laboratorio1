@@ -1,0 +1,68 @@
+/* Estilos generales */
+body {
+    background: linear-gradient(to right, #007bff, #00c6ff);
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+/* Contenedor principal */
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 50%;
+}
+
+/* Títulos */
+h1 {
+    font-weight: bold;
+    color: #0056b3;
+}
+
+/* Botones personalizados */
+.btn-custom {
+    background: #0056b3;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+.btn-custom:hover {
+    background: #004099;
+    color: #fff;
+}
+
+/* Etiquetas de formularios */
+.form-label {
+    color: #000 !important; /* Color negro */
+}
+
+/* Tarjeta para detalles del estudiante */
+.card {
+    background: white;
+    border-radius: 12px;
+}
+
+/* Tablas */
+.table {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table th {
+    background: #0056b3;
+    color: white;
+}
+
+/* Botones de acción en la tabla */
+.btn-sm {
+    border-radius: 6px;
+    padding: 8px;
+}
+
+.btn-danger:hover {
+    background: #c82333;
+}
